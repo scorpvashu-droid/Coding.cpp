@@ -26,13 +26,14 @@ void permutation(int n){
             }
             else{
                 int midd=n/2;
-                for(int i=midd+1; i<=n; i++){
+                for(int i=midd+3; i<=n; i++){
                     cout<<i<<" ";
                 }
-                cout<<midd<<" ";
-                for(int i=1; i<(midd-1); i++){
+                cout<<midd+1<<" ";
+                for(int i=1; i<=midd; i++){
                     cout<<i<<" ";
                 }
+                cout<<(midd+2)<<" ";
                 cout<<"\n";
             }
         }
